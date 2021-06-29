@@ -122,7 +122,7 @@ EXAMPLE:
 * Size
 * TheHipStore
 
-<h4> FORMAT: http://localhost:5080/query?{pid,sizeId,site} </h4>
+<h4> FORMAT: http://localhost:5080/query?{link,pid,sizeId,site} </h4>
 
 **The object must be urlencoded**
 * The link field must contain the sku (009289_jdsportsit.959375) 
