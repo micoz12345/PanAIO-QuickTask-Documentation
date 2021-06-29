@@ -5,11 +5,14 @@
   * [Asos](#Asos)
   * [Awlab](#Awlab)
   * [Defshop](#Defshop)
+  * [Footasylum](#Footasylum)
   * [Footshop](#Footshop)
+  * [Kickz](#Kickz)
   * [LDLC](#Ldlc)
   * [Mesh](#Mesh)
   * [Revolve](#Revolve)
   * [Rinascente](#Rinascente)
+  * [Yoox](#Yoox)
   * [Zalando](#Zalando)
 ------------------------------------
 ### ALDI
