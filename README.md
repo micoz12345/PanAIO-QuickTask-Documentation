@@ -1,6 +1,7 @@
 # PanAIO QuickTask Documentation
 
 ## Supported sites
+  * [ALDI](#ALDI)
   * [Asos](#Asos)
   * [Awlab](#Awlab)
   * [Defshop](#Defshop)
@@ -11,6 +12,15 @@
   * [Rinascente](#Rinascente)
   * [Zalando](#Zalando)
 ------------------------------------
+### ALDI
+<h4> FORMAT: http://localhost:5080/query?{pid,link,site} </h4>
+
+**The object must be urlencoded**
+
+EXAMPLE:
+<pre> http://localhost:5080/query?site=ALDI&link=https%3A%2F%2Fwww.aldi.co.uk%2Fp%2F710255467648600&pid=710255467648600 </pre>
+
+
 ### Asos
 <h4> FORMAT: http://localhost:5080/query?{pid,link,size,site} </h4>
 
@@ -54,6 +64,19 @@ EXAMPLE:
 <pre> http://localhost:5080/query?site=Defshop&link=https%3A%2F%2Fwww.def-shop.com%2Fnike-w-air-max-90-sneakers-white-arctic-punch-barely-green.html&size=40&pid=824176&sizeId=8195379 </pre>
 
 
+###Footasylum
+<h4> FORMAT: http://localhost:5080/query?{link,size,pid,site} </h4>
+
+**The object must be urlencoded**
+
+* The size field can contain only one size (size=7)
+* The size format must be in UK
+* The pid field must contain the id of the size
+
+EXAMPLE:
+<pre> http://localhost:5080/query?site=Footasylum&link=https%3A%2F%2Fwww.footasylum.com%2Fkids%2Fkids-footwear%2Fjunior-sizes-3-65%2Fnike-junior-air-force-1-low-trainer-black-048349%2F&size=5.5&pid=0483494 </pre>
+
+
 ### Footshop
 <h4> FORMAT: http://localhost:5080/query?{pid,link,size,sizeId,site} </h4>
 
@@ -67,6 +90,8 @@ EXAMPLE:
 EXAMPLE:
 <pre> http://localhost:5080/query?site=Footshop&link=https%3A%2F%2Fwww.footshop.it%2Fit%2Fscarpe-e-sneaker-da-uomo%2F114958-nike-air-force-1-07-premium-coconut-milk-atomic-orange-fuel-orange.html&size=7&pid=114958&sizeId=728683 </pre>
 
+
+###Kickz
 
 ### LDLC
 <h4> FORMAT: http://localhost:5080/query?{pid,link,site} </h4>
